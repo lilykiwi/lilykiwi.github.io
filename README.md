@@ -31,9 +31,6 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-This repo uses GitHub CI to build the project and publish it to GitHub Pages.
-See `/.github/workflows/publish.yml` for the workflow utilised.
-
 <!-- LICENSE -->
 
 ## License
