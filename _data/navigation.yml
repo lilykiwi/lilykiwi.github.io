@@ -1,0 +1,36 @@
+# _data/navigation.yml
+main:
+  - title: "Home"
+    url: "/"
+
+nav:
+  - title: Year 1 University
+    url: "uni-y1"
+    children:
+      - title: "Intro to Programming"
+        url: "uni-y1/ci401"
+      - title: "Computing Technologies"
+        url: "uni-y1/ci405"
+      - title: "Intro to Game Design"
+        url: "uni-y1/ci410"
+      - title: "Intro to Web Development"
+        url: "uni-y1/ci435"
+      - title: "Digital Industries"
+        url: "uni-y1/ci465"
+      - title: "Intro to 3D Modelling and Animation"
+        url: "uni-y1/ci474"
+  - title: Year 2 University
+    url: "uni-y2"
+    children:
+      - title: "Embedded Systems"
+        url: "uni-y2/ci514"
+      - title: "Game Engine Fundamentals"
+        url: "uni-y2/ci517"
+      - title: "Integrated Group Project"
+        url: "uni-y2/ci536"
+      - title: "Game Development Frameworks"
+        url: "uni-y2/ci541"
+      - title: "Data Structures & Operating Systems"
+        url: "uni-y2/ci583"
+      - title: "Web Based Game Development"
+        url: "uni-y2/ci587"

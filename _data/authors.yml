@@ -1,0 +1,15 @@
+Lily:
+  name: "Lily Rose"
+  bio: ""
+  avatar: "/assets/images/bio-photo.jpg"
+  location: "Brighton, UK"
+  links:
+    - label: "Misskey"
+      icon: "fab fa-fw fa-globe"
+      url: "https://stop.voring.me/@lilykiwi"
+    - label: "Twitter"
+      icon: "fas fa-fw fa-twitter"
+      url: "https://twitter.com/lilykiwi_"
+    - label: "Github"
+      icon: "fas fa-fw fa-github"
+      url: "https://github.com/lilykiwi"

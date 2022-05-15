@@ -1,0 +1,60 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// custom css
+
+.sidebar {
+  opacity: 1 !important;
+}
+
+// card grid on homepage ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#card-area {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.repoCard {
+  display: flex;
+  width: 25%;
+  padding: 10px;
+}
+
+.repoCard img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.author__avatar img {
+  padding: 0;
+  border: 0;
+  max-width: 100%;
+}
+
+#footer {
+  margin-top: 0 !important;
+}
+
+.sidebar .sticky {
+  max-height: none;
+  position: initial;
+}
+
+.masthead {
+  border-bottom: 0;
+  background: rgb(26, 29, 36);
+}
+
+.greedy-nav {
+  background: rgb(26, 29, 36);
+}
